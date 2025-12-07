@@ -28,7 +28,7 @@ def self_pinger():
     while True:
         try:
             print("Self-pinging...")
-            requests.get("https://your-render-service-url.onrender.com")
+            requests.get("https://tracker-ii23.onrender.com")
         except:
             pass
         time.sleep(240)  # every 4 minutes
